@@ -5,9 +5,9 @@ end
 def batch_badge_creator(names)
   i = 0
   introArr = []
-  names.each do |name|
+  names.map do |name|
     
-      print "Hello, my name is #{name}."
+      "Hello, my name is #{name}."
       
     end
 end

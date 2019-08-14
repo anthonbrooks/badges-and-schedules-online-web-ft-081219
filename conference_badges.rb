@@ -7,7 +7,7 @@ def batch_badge_creator(names)
   introArr = []
   names.each do |name|
     while (i < names.length)
-      introArr.push("Hello, my name is #{name}.")
+      print "Hello, my name is #{name}.")
       i++
       end
     end

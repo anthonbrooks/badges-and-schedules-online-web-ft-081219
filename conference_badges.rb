@@ -9,6 +9,6 @@ def batch_badge_creator(names)
     while (i < names.length)
       introArr.push("Hello, my name is #{name}.")
       i++
-    end    
+      end   
   end
 end

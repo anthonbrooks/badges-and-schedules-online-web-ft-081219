@@ -3,8 +3,10 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(names)
-  i = 0
+ 
+ i = 0
   introArr = []
+  
   names.map do |name|
     
       "Hello, my name is #{name}."
